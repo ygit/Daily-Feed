@@ -6,7 +6,8 @@
 //  Copyright © 2015 yogesh singh. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+@import UIKit;
+@import QuartzCore;
 
 @interface ViewController : UIViewController
 

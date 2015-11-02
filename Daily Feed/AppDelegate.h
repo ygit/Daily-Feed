@@ -6,8 +6,8 @@
 //  Copyright © 2015 yogesh singh. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
-#import <CoreData/CoreData.h>
+@import UIKit;
+@import CoreData;
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
@@ -19,7 +19,6 @@
 
 - (void)saveContext;
 - (NSURL *)applicationDocumentsDirectory;
-
 
 @end
 

@@ -12,11 +12,26 @@
 		EC2F0FFB1BE5380B00D2857A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC2F0FFA1BE5380B00D2857A /* ViewController.m */; };
 		EC2F0FFE1BE5380B00D2857A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC2F0FFC1BE5380B00D2857A /* Main.storyboard */; };
 		EC2F10011BE5380B00D2857A /* Daily_Feed.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EC2F0FFF1BE5380B00D2857A /* Daily_Feed.xcdatamodeld */; };
-		EC2F10031BE5380B00D2857A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC2F10021BE5380B00D2857A /* Assets.xcassets */; };
 		EC2F10061BE5380B00D2857A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC2F10041BE5380B00D2857A /* LaunchScreen.storyboard */; };
+		EC8374171BE53FCA0020D6CD /* HomeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EC8374161BE53FCA0020D6CD /* HomeTableViewCell.m */; };
+		EC83741C1BE551090020D6CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC83741B1BE551090020D6CD /* Assets.xcassets */; };
+		EC8374271BE55CCB0020D6CD /* Feed+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = EC8374241BE55CCB0020D6CD /* Feed+CoreDataProperties.m */; };
+		EC8374281BE55CCB0020D6CD /* Feed.m in Sources */ = {isa = PBXBuildFile; fileRef = EC8374261BE55CCB0020D6CD /* Feed.m */; };
+		EC83742D1BE55D0A0020D6CD /* Hits+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = EC83742A1BE55D0A0020D6CD /* Hits+CoreDataProperties.m */; };
+		EC83742E1BE55D0A0020D6CD /* Hits.m in Sources */ = {isa = PBXBuildFile; fileRef = EC83742C1BE55D0A0020D6CD /* Hits.m */; };
+		EC8374321BE55D630020D6CD /* ServerHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = EC8374311BE55D630020D6CD /* ServerHelper.m */; };
+		EC8374351BE55F4A0020D6CD /* DataParser.m in Sources */ = {isa = PBXBuildFile; fileRef = EC8374341BE55F4A0020D6CD /* DataParser.m */; };
+		EC8374381BE562C90020D6CD /* DataProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = EC8374371BE562C90020D6CD /* DataProvider.m */; };
+		EC83743B1BE56D760020D6CD /* PopupView.m in Sources */ = {isa = PBXBuildFile; fileRef = EC83743A1BE56D760020D6CD /* PopupView.m */; };
+		EC83743E1BE591000020D6CD /* FeedDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EC83743D1BE591000020D6CD /* FeedDetailVC.m */; };
+		EC86AD1D1BE5DA8600A1894A /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = EC86AD1C1BE5DA8600A1894A /* Utils.m */; };
+		FE192DC6FC790AD5DFC5CB31 /* libPods-Daily Feed.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 59068D4810C6C8E33437A1E7 /* libPods-Daily Feed.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		59068D4810C6C8E33437A1E7 /* libPods-Daily Feed.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Daily Feed.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F05B65DC1D007A3A09945F1 /* Pods-Daily Feed.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Daily Feed.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Daily Feed/Pods-Daily Feed.debug.xcconfig"; sourceTree = "<group>"; };
+		99A96E2B6D762833604EF867 /* Pods-Daily Feed.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Daily Feed.release.xcconfig"; path = "Pods/Target Support Files/Pods-Daily Feed/Pods-Daily Feed.release.xcconfig"; sourceTree = "<group>"; };
 		EC2F0FF01BE5380B00D2857A /* Daily Feed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Daily Feed.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC2F0FF41BE5380B00D2857A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EC2F0FF61BE5380B00D2857A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -25,9 +40,31 @@
 		EC2F0FFA1BE5380B00D2857A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		EC2F0FFD1BE5380B00D2857A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EC2F10001BE5380B00D2857A /* Daily_Feed.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Daily_Feed.xcdatamodel; sourceTree = "<group>"; };
-		EC2F10021BE5380B00D2857A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC2F10051BE5380B00D2857A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EC2F10071BE5380B00D2857A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC8374151BE53FCA0020D6CD /* HomeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeTableViewCell.h; sourceTree = "<group>"; };
+		EC8374161BE53FCA0020D6CD /* HomeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeTableViewCell.m; sourceTree = "<group>"; };
+		EC8374181BE542C80020D6CD /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		EC83741B1BE551090020D6CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC8374231BE55CCB0020D6CD /* Feed+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Feed+CoreDataProperties.h"; sourceTree = "<group>"; };
+		EC8374241BE55CCB0020D6CD /* Feed+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Feed+CoreDataProperties.m"; sourceTree = "<group>"; };
+		EC8374251BE55CCB0020D6CD /* Feed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Feed.h; sourceTree = "<group>"; };
+		EC8374261BE55CCB0020D6CD /* Feed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Feed.m; sourceTree = "<group>"; };
+		EC8374291BE55D0A0020D6CD /* Hits+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Hits+CoreDataProperties.h"; sourceTree = "<group>"; };
+		EC83742A1BE55D0A0020D6CD /* Hits+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Hits+CoreDataProperties.m"; sourceTree = "<group>"; };
+		EC83742B1BE55D0A0020D6CD /* Hits.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hits.h; sourceTree = "<group>"; };
+		EC83742C1BE55D0A0020D6CD /* Hits.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Hits.m; sourceTree = "<group>"; };
+		EC8374301BE55D630020D6CD /* ServerHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServerHelper.h; sourceTree = "<group>"; };
+		EC8374311BE55D630020D6CD /* ServerHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServerHelper.m; sourceTree = "<group>"; };
+		EC8374331BE55F4A0020D6CD /* DataParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataParser.h; sourceTree = "<group>"; };
+		EC8374341BE55F4A0020D6CD /* DataParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataParser.m; sourceTree = "<group>"; };
+		EC8374361BE562C90020D6CD /* DataProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataProvider.h; sourceTree = "<group>"; };
+		EC8374371BE562C90020D6CD /* DataProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataProvider.m; sourceTree = "<group>"; };
+		EC8374391BE56D760020D6CD /* PopupView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopupView.h; sourceTree = "<group>"; };
+		EC83743A1BE56D760020D6CD /* PopupView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopupView.m; sourceTree = "<group>"; };
+		EC83743C1BE591000020D6CD /* FeedDetailVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedDetailVC.h; sourceTree = "<group>"; };
+		EC83743D1BE591000020D6CD /* FeedDetailVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedDetailVC.m; sourceTree = "<group>"; };
+		EC86AD1C1BE5DA8600A1894A /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,17 +72,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE192DC6FC790AD5DFC5CB31 /* libPods-Daily Feed.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4619FFE415BCB0322DC4B7C6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				59068D4810C6C8E33437A1E7 /* libPods-Daily Feed.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B4497040473D8978E59405CD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6F05B65DC1D007A3A09945F1 /* Pods-Daily Feed.debug.xcconfig */,
+				99A96E2B6D762833604EF867 /* Pods-Daily Feed.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		EC2F0FE71BE5380B00D2857A = {
 			isa = PBXGroup;
 			children = (
 				EC2F0FF21BE5380B00D2857A /* Daily Feed */,
 				EC2F0FF11BE5380B00D2857A /* Products */,
+				B4497040473D8978E59405CD /* Pods */,
+				4619FFE415BCB0322DC4B7C6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,15 +117,9 @@
 		EC2F0FF21BE5380B00D2857A /* Daily Feed */ = {
 			isa = PBXGroup;
 			children = (
-				EC2F0FF61BE5380B00D2857A /* AppDelegate.h */,
-				EC2F0FF71BE5380B00D2857A /* AppDelegate.m */,
-				EC2F0FF91BE5380B00D2857A /* ViewController.h */,
-				EC2F0FFA1BE5380B00D2857A /* ViewController.m */,
-				EC2F0FFC1BE5380B00D2857A /* Main.storyboard */,
-				EC2F10021BE5380B00D2857A /* Assets.xcassets */,
-				EC2F10041BE5380B00D2857A /* LaunchScreen.storyboard */,
-				EC2F10071BE5380B00D2857A /* Info.plist */,
-				EC2F0FFF1BE5380B00D2857A /* Daily_Feed.xcdatamodeld */,
+				EC7841681BE53A57002F3465 /* Data Model */,
+				EC83742F1BE55D450020D6CD /* Data Helpers */,
+				EC7841671BE53A3E002F3465 /* View Helpers */,
 				EC2F0FF31BE5380B00D2857A /* Supporting Files */,
 			);
 			path = "Daily Feed";
@@ -78,8 +129,60 @@
 			isa = PBXGroup;
 			children = (
 				EC2F0FF41BE5380B00D2857A /* main.m */,
+				EC2F0FF61BE5380B00D2857A /* AppDelegate.h */,
+				EC2F0FF71BE5380B00D2857A /* AppDelegate.m */,
+				EC8374181BE542C80020D6CD /* Utils.h */,
+				EC86AD1C1BE5DA8600A1894A /* Utils.m */,
+				EC2F0FFC1BE5380B00D2857A /* Main.storyboard */,
+				EC2F10041BE5380B00D2857A /* LaunchScreen.storyboard */,
+				EC2F10071BE5380B00D2857A /* Info.plist */,
+				EC83741B1BE551090020D6CD /* Assets.xcassets */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EC7841671BE53A3E002F3465 /* View Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				EC2F0FF91BE5380B00D2857A /* ViewController.h */,
+				EC2F0FFA1BE5380B00D2857A /* ViewController.m */,
+				EC83743C1BE591000020D6CD /* FeedDetailVC.h */,
+				EC83743D1BE591000020D6CD /* FeedDetailVC.m */,
+				EC8374151BE53FCA0020D6CD /* HomeTableViewCell.h */,
+				EC8374161BE53FCA0020D6CD /* HomeTableViewCell.m */,
+				EC8374391BE56D760020D6CD /* PopupView.h */,
+				EC83743A1BE56D760020D6CD /* PopupView.m */,
+			);
+			name = "View Helpers";
+			sourceTree = "<group>";
+		};
+		EC7841681BE53A57002F3465 /* Data Model */ = {
+			isa = PBXGroup;
+			children = (
+				EC2F0FFF1BE5380B00D2857A /* Daily_Feed.xcdatamodeld */,
+				EC8374231BE55CCB0020D6CD /* Feed+CoreDataProperties.h */,
+				EC8374241BE55CCB0020D6CD /* Feed+CoreDataProperties.m */,
+				EC8374251BE55CCB0020D6CD /* Feed.h */,
+				EC8374261BE55CCB0020D6CD /* Feed.m */,
+				EC8374291BE55D0A0020D6CD /* Hits+CoreDataProperties.h */,
+				EC83742A1BE55D0A0020D6CD /* Hits+CoreDataProperties.m */,
+				EC83742B1BE55D0A0020D6CD /* Hits.h */,
+				EC83742C1BE55D0A0020D6CD /* Hits.m */,
+			);
+			name = "Data Model";
+			sourceTree = "<group>";
+		};
+		EC83742F1BE55D450020D6CD /* Data Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				EC8374301BE55D630020D6CD /* ServerHelper.h */,
+				EC8374311BE55D630020D6CD /* ServerHelper.m */,
+				EC8374331BE55F4A0020D6CD /* DataParser.h */,
+				EC8374341BE55F4A0020D6CD /* DataParser.m */,
+				EC8374361BE562C90020D6CD /* DataProvider.h */,
+				EC8374371BE562C90020D6CD /* DataProvider.m */,
+			);
+			name = "Data Helpers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -89,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EC2F100A1BE5380B00D2857A /* Build configuration list for PBXNativeTarget "Daily Feed" */;
 			buildPhases = (
+				0417ED0C086F15287B6E23E0 /* Check Pods Manifest.lock */,
 				EC2F0FEC1BE5380B00D2857A /* Sources */,
 				EC2F0FED1BE5380B00D2857A /* Frameworks */,
 				EC2F0FEE1BE5380B00D2857A /* Resources */,
+				E30CA8F9C21B1FB4E2FC0513 /* Embed Pods Frameworks */,
+				6752DA6E286A09947C93D39F /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -140,22 +246,81 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC2F10061BE5380B00D2857A /* LaunchScreen.storyboard in Resources */,
-				EC2F10031BE5380B00D2857A /* Assets.xcassets in Resources */,
+				EC83741C1BE551090020D6CD /* Assets.xcassets in Resources */,
 				EC2F0FFE1BE5380B00D2857A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0417ED0C086F15287B6E23E0 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6752DA6E286A09947C93D39F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Daily Feed/Pods-Daily Feed-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E30CA8F9C21B1FB4E2FC0513 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Daily Feed/Pods-Daily Feed-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EC2F0FEC1BE5380B00D2857A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC8374351BE55F4A0020D6CD /* DataParser.m in Sources */,
 				EC2F0FFB1BE5380B00D2857A /* ViewController.m in Sources */,
+				EC8374381BE562C90020D6CD /* DataProvider.m in Sources */,
+				EC86AD1D1BE5DA8600A1894A /* Utils.m in Sources */,
 				EC2F10011BE5380B00D2857A /* Daily_Feed.xcdatamodeld in Sources */,
+				EC8374321BE55D630020D6CD /* ServerHelper.m in Sources */,
+				EC8374281BE55CCB0020D6CD /* Feed.m in Sources */,
+				EC8374171BE53FCA0020D6CD /* HomeTableViewCell.m in Sources */,
 				EC2F0FF81BE5380B00D2857A /* AppDelegate.m in Sources */,
 				EC2F0FF51BE5380B00D2857A /* main.m in Sources */,
+				EC8374271BE55CCB0020D6CD /* Feed+CoreDataProperties.m in Sources */,
+				EC83743B1BE56D760020D6CD /* PopupView.m in Sources */,
+				EC83743E1BE591000020D6CD /* FeedDetailVC.m in Sources */,
+				EC83742E1BE55D0A0020D6CD /* Hits.m in Sources */,
+				EC83742D1BE55D0A0020D6CD /* Hits+CoreDataProperties.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,23 +428,29 @@
 		};
 		EC2F100B1BE5380B00D2857A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F05B65DC1D007A3A09945F1 /* Pods-Daily Feed.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Daily Feed/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hackerearth.Daily-Feed";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		EC2F100C1BE5380B00D2857A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99A96E2B6D762833604EF867 /* Pods-Daily Feed.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Daily Feed/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hackerearth.Daily-Feed";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -302,6 +473,7 @@
 				EC2F100C1BE5380B00D2857A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

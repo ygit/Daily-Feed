@@ -6,6 +6,11 @@
 //  Copyright © 2015 yogesh singh. All rights reserved.
 //
 
+@import Accelerate;
+@import CoreImage;
+@import CoreGraphics;
+@import QuartzCore;
+
 #import "AppDelegate.h"
 
 @interface AppDelegate ()
@@ -13,7 +18,6 @@
 @end
 
 @implementation AppDelegate
-
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
